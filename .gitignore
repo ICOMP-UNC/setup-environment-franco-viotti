@@ -16,7 +16,7 @@
 /build/
 
 # External directoy
-# Son las dependencias que se desacargan de terceros (librerias)
+# Third party download libraries
 /external/
 
 # Dependency files
@@ -24,7 +24,11 @@
 
 # Editor/IDE specific files
 .vscode/
-.idea/
-
 # Dont track sonnar files
 .scannerwork/
+
+# Sonar scanner files
+sonar-project.properties
+
+# CDash files
+Pipeline.cmake

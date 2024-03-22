@@ -4,6 +4,11 @@
 #include "shared.h"
 #include "static.h"
 
+/**
+ * @brief Main function
+ * 
+ * @return int with funtion status
+*/
 int main()
 {
     printf("Hello World from 'main.c'!\n");

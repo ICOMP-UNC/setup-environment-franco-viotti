@@ -1,10 +1,9 @@
 /**
- * Se incluye '#pragma once' para evitar que el archivo sea incluido más de una vez en un mismo archivo fuente.
- * Es una preprocessor directive.
+ * It is a preprocessor directive that avoids the file to be included more than once in the same source file.
  */
 #pragma once
 
 /**
- * @brief Función que imprime un mensaje de bienvenida.
+ * @brief Prints a wellcoming message.
  */
 void greetings();
