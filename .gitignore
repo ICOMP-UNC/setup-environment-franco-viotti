@@ -9,9 +9,6 @@
 *.a
 *.so
 
-# Disable for now
-*.cmake
-
 # Build directory
 /build/
 
@@ -26,12 +23,6 @@
 .vscode/
 # Dont track sonnar files
 .scannerwork/
-
-# Sonar scanner files
-sonar-project.properties
-
-# CDash files
-Pipeline.cmake
 
 # Utils
 qa_local.sh
