@@ -6,7 +6,7 @@
 
 /**
  * @brief Main function
- * 
+ *
  * @return int with funtion status
 */
 int main()

@@ -24,4 +24,3 @@ set(CMAKE_C_FLAGS "-Wall -Wextra -Wpedantic")
 # This is the only difference with the root CMakeLists.txt
 # Add libraries and define if they are STATIC, SHARED or MODULE
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
-

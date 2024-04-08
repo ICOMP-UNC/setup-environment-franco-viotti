@@ -4,9 +4,9 @@
 
 /**
  * shared_lib_function
- * 
- * This function is defined in the shared library and 
- * 
+ *
+ * This function is defined in the shared library and
+ *
  * @param msg: The message to be printed
  * @return The length of the message
 */

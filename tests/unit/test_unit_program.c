@@ -35,6 +35,7 @@ void test_logic_divide(void)
 {
     TEST_ASSERT_EQUAL(2, divide(6, 3));
     TEST_ASSERT_NOT_EQUAL(2, divide(6, 6));
+    TEST_ASSERT_NOT_EQUAL(2, divide(3, 0));
 }
 
 

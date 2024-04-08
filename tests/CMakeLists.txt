@@ -17,7 +17,7 @@ if (RUN_COVERAGE)
     find_program(LCOV_PATH lcov)
         if (NOT LCOV_PATH)
         message(FATAL_ERROR "[ERROR] lcov not found! Aborting...")
-    endif()            
+    endif()
 
     find_program(GCOV_PATH gcov)
         if (NOT GCOV_PATH)

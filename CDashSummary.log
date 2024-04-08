@@ -1,0 +1,299 @@
+* Extra verbosity turned on
+Reading Script: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/Pipeline.cmake
+SetCTestConfiguration:SourceDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti
+SetCTestConfiguration:BuildDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+Run dashboard with model Experimental
+   Source directory: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti
+   Build directory: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+SetCTestConfigurationFromCMakeVariable:Site:CTEST_SITE
+SetCTestConfiguration:Site:franco-msi
+SetCTestConfigurationFromCMakeVariable:BuildName:CTEST_BUILD_NAME
+SetCTestConfiguration:BuildName:linux-x86_64-gcc
+   Site: franco-msi
+   Build name: linux-x86_64-gcc
+   Use Experimental tag: 20240408-2036
+SetCTestConfiguration:BuildDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+SetCTestConfiguration:SourceDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti
+SetCTestConfiguration:ConfigureCommand:"/usr/bin/cmake" "-DRUN_COVERAGE=1" "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" "-DCMAKE_BUILD_TYPE:STRING=Debug" "-DCTEST_USE_LAUNCHERS:BOOL=TRUE" "-GNinja" "-S/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti" "-B/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build"
+Configure project
+Configure with command: "/usr/bin/cmake" "-DRUN_COVERAGE=1" "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" "-DCMAKE_BUILD_TYPE:STRING=Debug" "-DCTEST_USE_LAUNCHERS:BOOL=TRUE" "-GNinja" "-S/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti" "-B/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build"
+Run command: "/usr/bin/cmake" "-DRUN_COVERAGE=1" "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" "-DCMAKE_BUILD_TYPE:STRING=Debug" "-DCTEST_USE_LAUNCHERS:BOOL=TRUE" "-GNinja" "-S/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti" "-B/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build"
+-- The C compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+Coverage enabled
+-- Configuring done (3.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+Command exited with the value: 0
+SetCTestConfiguration:BuildDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+SetCTestConfiguration:SourceDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti
+SetCTestConfiguration:SubmitURL:http://localhost:8080/submit.php?project=setup-environment-fviotti
+Submit files
+   SubmitURL: http://localhost:8080/submit.php?project=setup-environment-fviotti
+   Upload file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/Configure.xml to http://localhost:8080/submit.php?project=setup-environment-fviotti&FileName=franco-msi___linux-x86_64-gcc___20240408-2036-Experimental___XML___Configure.xml&build=linux-x86_64-gcc&site=franco-msi&stamp=20240408-2036-Experimental&MD5=3cb68bb662a4fdfa53cf125876875007 Size: 1831
+   Uploaded: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/Configure.xml
+   Submission successful
+SetCTestConfiguration:BuildDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+SetCTestConfiguration:SourceDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti
+SetMakeCommand:/usr/bin/cmake --build . --config "Debug" --parallel "16"
+SetCTestConfiguration:MakeCommand:/usr/bin/cmake --build . --config "Debug" --parallel "16"
+SetCTestConfiguration:UseLaunchers:YES
+Build project
+MakeCommand:/usr/bin/cmake --build . --config "Debug" --parallel "16"
+Run command: "/usr/bin/cmake" "--build" "." "--config" "Debug" "--parallel" "16"
+[1/13] Building C object CMakeFiles/FirstProjectInCMake.dir/src/logic.c.o
+[2/13] Building C object CMakeFiles/FirstProjectInCMake.dir/src/greetings.c.o
+[3/13] Building C object tests/CMakeFiles/test_FirstProjectInCMake.dir/__/src/logic.c.o
+[4/13] Building C object CMakeFiles/FirstProjectInCMake.dir/src/main.c.o
+[5/13] Building C object lib/libdyn/CMakeFiles/DynamiCLib.dir/src/shared.c.o
+[6/13] Building C object lib/libsta/CMakeFiles/StatiCLib.dir/src/static.c.o
+[7/13] Building C object tests/CMakeFiles/test_FirstProjectInCMake.dir/unit/test_unit_program.c.o
+[8/13] Linking C shared library lib/libdyn/libDynamiCLib.so
+[9/13] Building C object _deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o
+[10/13] Linking C static library lib/libsta/libStatiCLib.a
+[11/13] Linking C executable FirstProjectInCMake
+[12/13] Linking C static library _deps/unity-build/libunity.a
+[13/13] Linking C executable tests/test_FirstProjectInCMake
+Command exited with the value: 0
+MakeCommand:/usr/bin/cmake --build . --config "Debug" --parallel "16"
+   0 Compiler errors
+   0 Compiler warnings
+SetCTestConfiguration:BuildDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+SetCTestConfiguration:SourceDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti
+SetCTestConfiguration:SubmitURL:http://localhost:8080/submit.php?project=setup-environment-fviotti
+Submit files
+   SubmitURL: http://localhost:8080/submit.php?project=setup-environment-fviotti
+   Upload file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/Build.xml to http://localhost:8080/submit.php?project=setup-environment-fviotti&FileName=franco-msi___linux-x86_64-gcc___20240408-2036-Experimental___XML___Build.xml&build=linux-x86_64-gcc&site=franco-msi&stamp=20240408-2036-Experimental&MD5=d57138a9f50a6a5a5f0297ab5449045c Size: 1058
+   Uploaded: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/Build.xml
+   Submission successful
+SetCTestConfiguration:BuildDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+SetCTestConfiguration:SourceDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti
+Test project /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_FirstProjectInCMake
+
+1: Test command: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/test_FirstProjectInCMake
+1: Working Directory: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests
+1: Test timeout computed to be: 600
+1: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c:60:test_logic_add:PASS
+1: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c:61:test_logic_substract:PASS
+1: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c:62:test_logic_multiply:PASS
+1: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c:63:test_logic_divide:PASS
+1:
+1: -----------------------
+1: 4 Tests 0 Failures 0 Ignored
+1: OK
+1/1 Test #1: test_FirstProjectInCMake .........   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.00 sec
+SetCTestConfiguration:BuildDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+SetCTestConfiguration:SourceDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti
+SetCTestConfiguration:SubmitURL:http://localhost:8080/submit.php?project=setup-environment-fviotti
+Submit files
+   SubmitURL: http://localhost:8080/submit.php?project=setup-environment-fviotti
+   Upload file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/Test.xml to http://localhost:8080/submit.php?project=setup-environment-fviotti&FileName=franco-msi___linux-x86_64-gcc___20240408-2036-Experimental___XML___Test.xml&build=linux-x86_64-gcc&site=franco-msi&stamp=20240408-2036-Experimental&MD5=9dc883d806ca108e037e48941be1d478 Size: 2422
+   Uploaded: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/Test.xml
+   Submission successful
+SetCTestConfiguration:BuildDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+SetCTestConfiguration:SourceDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti
+SetCTestConfigurationFromCMakeVariable:MemoryCheckCommand:CTEST_MEMORYCHECK_COMMAND
+SetCTestConfiguration:MemoryCheckCommand:/usr/bin/valgrind
+SetCTestConfigurationFromCMakeVariable:MemoryCheckCommandOptions:CTEST_MEMORYCHECK_COMMAND_OPTIONS
+SetCTestConfiguration:MemoryCheckCommandOptions:--trace-children=yes --leak-check=full
+Memory check project /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_FirstProjectInCMake
+Memory check command: /usr/bin/valgrind "--log-file=/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/Temporary/MemoryChecker.1.log" "--trace-children=yes" "--leak-check=full"
+
+1: MemCheck command: /usr/bin/valgrind "--log-file=/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/Temporary/MemoryChecker.1.log" "--trace-children=yes" "--leak-check=full" "/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/test_FirstProjectInCMake"
+1: Working Directory: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests
+1: Test timeout computed to be: 600
+1: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c:60:test_logic_add:PASS
+1: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c:61:test_logic_substract:PASS
+1: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c:62:test_logic_multiply:PASS
+1: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c:63:test_logic_divide:PASS
+1:
+1: -----------------------
+1: 4 Tests 0 Failures 0 Ignored
+1: OK
+1/1 MemCheck #1: test_FirstProjectInCMake .........   Passed    0.49 sec
+1: process test output now: test_FirstProjectInCMake test_FirstProjectInCMake
+PostProcessTest memcheck results for : test_FirstProjectInCMake
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.49 sec
+-- Processing memory checking output:
+MemCheck log files can be found here: (<#> corresponds to test number)
+/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/Temporary/MemoryChecker.<#>.log
+Memory checking results:
+SetCTestConfiguration:BuildDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+SetCTestConfiguration:SourceDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti
+SetCTestConfiguration:SubmitURL:http://localhost:8080/submit.php?project=setup-environment-fviotti
+Submit files
+   SubmitURL: http://localhost:8080/submit.php?project=setup-environment-fviotti
+   Upload file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/DynamicAnalysis.xml to http://localhost:8080/submit.php?project=setup-environment-fviotti&FileName=franco-msi___linux-x86_64-gcc___20240408-2036-Experimental___XML___DynamicAnalysis.xml&build=linux-x86_64-gcc&site=franco-msi&stamp=20240408-2036-Experimental&MD5=ee3a88e6c625f678f51819267b855646 Size: 1042
+   Uploaded: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/DynamicAnalysis.xml
+   Upload file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/DynamicAnalysis-Test.xml to http://localhost:8080/submit.php?project=setup-environment-fviotti&FileName=franco-msi___linux-x86_64-gcc___20240408-2036-Experimental___XML___DynamicAnalysis-Test.xml&build=linux-x86_64-gcc&site=franco-msi&stamp=20240408-2036-Experimental&MD5=3021c4fef7c9524d85ee426a949c29c9 Size: 3965
+   Uploaded: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/DynamicAnalysis-Test.xml
+   Submission successful
+SetCTestConfiguration:BuildDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+SetCTestConfiguration:SourceDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti
+SetCTestConfigurationFromCMakeVariable:CoverageCommand:CTEST_COVERAGE_COMMAND
+SetCTestConfiguration:CoverageCommand:gcov
+ Add coverage exclude regular expressions.
+ target directory list [/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/TargetDirectories.txt]
+Performing coverage
+ COVFILE environment variable not found, not running  bullseye
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/Continuous.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ContinuousBuild.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ContinuousConfigure.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ContinuousCoverage.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ContinuousMemCheck.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ContinuousStart.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ContinuousSubmit.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ContinuousTest.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ContinuousUpdate.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/Experimental.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ExperimentalBuild.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ExperimentalConfigure.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ExperimentalCoverage.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ExperimentalMemCheck.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ExperimentalStart.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ExperimentalSubmit.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ExperimentalTest.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/ExperimentalUpdate.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/FirstProjectInCMake.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/Nightly.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/NightlyBuild.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/NightlyConfigure.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/NightlyCoverage.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/NightlyMemCheck.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/NightlyMemoryCheck.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/NightlyStart.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/NightlySubmit.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/NightlyTest.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/NightlyUpdate.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/edit_cache.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/install.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/install/local.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/install/strip.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/list_install_components.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/rebuild_cache.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/CMakeFiles/test.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/_deps/unity-build/CMakeFiles/edit_cache.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/_deps/unity-build/CMakeFiles/install.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/_deps/unity-build/CMakeFiles/install/local.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/_deps/unity-build/CMakeFiles/install/strip.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/_deps/unity-build/CMakeFiles/list_install_components.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/_deps/unity-build/CMakeFiles/rebuild_cache.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/_deps/unity-build/CMakeFiles/test.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/_deps/unity-build/CMakeFiles/unity.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libdyn/CMakeFiles/DynamiCLib.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libdyn/CMakeFiles/edit_cache.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libdyn/CMakeFiles/install.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libdyn/CMakeFiles/install/local.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libdyn/CMakeFiles/install/strip.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libdyn/CMakeFiles/list_install_components.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libdyn/CMakeFiles/rebuild_cache.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libdyn/CMakeFiles/test.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libsta/CMakeFiles/StatiCLib.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libsta/CMakeFiles/edit_cache.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libsta/CMakeFiles/install.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libsta/CMakeFiles/install/local.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libsta/CMakeFiles/install/strip.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libsta/CMakeFiles/list_install_components.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libsta/CMakeFiles/rebuild_cache.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/lib/libsta/CMakeFiles/test.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/CMakeFiles/edit_cache.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/CMakeFiles/install.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/CMakeFiles/install/local.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/CMakeFiles/install/strip.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/CMakeFiles/list_install_components.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/CMakeFiles/rebuild_cache.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/CMakeFiles/test.dir
+   globbing for coverage in: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/CMakeFiles/test_FirstProjectInCMake.dir
+   Processing coverage (each . represents one file):
+    .gcov -o /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/CMakeFiles/test_FirstProjectInCMake.dir/__/src /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/CMakeFiles/test_FirstProjectInCMake.dir/__/src/logic.c.gcda
+File '/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/src/logic.c'
+Lines executed:100.00% of 10
+Creating 'logic.c.gcov'
+
+Lines executed:100.00% of 10
+--------------------------------------------------------------
+File '/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/src/logic.c'
+Lines executed:100.00% of 10
+Creating 'logic.c.gcov'
+
+Lines executed:100.00% of 10
+
+--------------------------------------------------------------
+   produced s: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/src/logic.c
+   in gcovFile: logic.c.gcov
+.gcov -o /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/CMakeFiles/test_FirstProjectInCMake.dir/unit /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/tests/CMakeFiles/test_FirstProjectInCMake.dir/unit/test_unit_program.c.gcda
+File '/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c'
+Lines executed:100.00% of 28
+Creating 'test_unit_program.c.gcov'
+
+Lines executed:100.00% of 28
+--------------------------------------------------------------
+File '/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c'
+Lines executed:100.00% of 28
+Creating 'test_unit_program.c.gcov'
+
+Lines executed:100.00% of 28
+
+--------------------------------------------------------------
+   produced s: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c
+   in gcovFile: test_unit_program.c.gcov
+ Not a valid Intel Coverage command.
+ Cannot find any Python Trace.py coverage files.
+ Cannot find Cobertura XML file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/coverage.xml
+ Cannot find GTM coverage file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/gtm_coverage.mcov
+ Cannot find Cache coverage file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/cache_coverage.cmcov
+ Cannot find Jacoco coverage files: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/*jacoco.xml
+ Cannot find BlanketJS coverage files: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/*.json
+ Cannot find Delphi coverage files: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/*(*.pas).html
+Open file: CoverageLog-0
+
+   Accumulating results (each . represents one file):
+    .Process file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/src/logic.c
+Actually performing coverage for: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/src/logic.c
+.Process file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c
+Actually performing coverage for: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/tests/unit/test_unit_program.c
+Close file: CoverageLog-0.xml
+
+	Covered LOC:         38
+	Not covered LOC:     0
+	Total LOC:           38
+	Percentage Coverage: 100.00%
+SetCTestConfiguration:BuildDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build
+SetCTestConfiguration:SourceDirectory:/home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti
+SetCTestConfiguration:SubmitURL:http://localhost:8080/submit.php?project=setup-environment-fviotti
+Submit files
+   SubmitURL: http://localhost:8080/submit.php?project=setup-environment-fviotti
+   Upload file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/Coverage.xml to http://localhost:8080/submit.php?project=setup-environment-fviotti&FileName=franco-msi___linux-x86_64-gcc___20240408-2036-Experimental___XML___Coverage.xml&build=linux-x86_64-gcc&site=franco-msi&stamp=20240408-2036-Experimental&MD5=a809e4a098107e3ce2ec848505059b83 Size: 1497
+   Uploaded: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/Coverage.xml
+   Upload file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/CoverageLog-0.xml to http://localhost:8080/submit.php?project=setup-environment-fviotti&FileName=franco-msi___linux-x86_64-gcc___20240408-2036-Experimental___XML___CoverageLog-0.xml&build=linux-x86_64-gcc&site=franco-msi&stamp=20240408-2036-Experimental&MD5=59e171217596294461d74afac77abfec Size: 8014
+   Uploaded: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/CoverageLog-0.xml
+   Upload file: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/Done.xml to http://localhost:8080/submit.php?project=setup-environment-fviotti&FileName=franco-msi___linux-x86_64-gcc___20240408-2036-Experimental___XML___Done.xml&build=linux-x86_64-gcc&site=franco-msi&stamp=20240408-2036-Experimental&MD5=afa82caec606ff958efca43a0effd632 Size: 103
+   Uploaded: /home/francoviotti-personal/Documents/Facultad/SistOps2/TPs/setup-environment-franco-viotti/build/Testing/20240408-2036/Done.xml
+   Submission successful

@@ -32,3 +32,8 @@ sonar-project.properties
 
 # CDash files
 Pipeline.cmake
+
+# Utils
+qa_local.sh
+run-clang-tidy.py
+.pre-commit-config.yaml

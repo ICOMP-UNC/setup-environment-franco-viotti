@@ -37,9 +37,9 @@ FetchContent_Declare(
 # Makes sure dependencies are downloaded
 FetchContent_MakeAvailable(Unity)
 
-# Defines the location of the source codes
+# Defines the location of the source codes. Looks globally and stores in variable 'SOURCES'
 # the 'file' function is used, with the disadvantage that all .c files are included
-file(GLOB SOURCES "src/*.c")
+file(GLOB_RECURSE SOURCES "src/*.c")
 
 # Define the compilation flags
 set(CMAKE_C_FLAGS "-Wall -Wextra -Wpedantic -Werror")
@@ -48,6 +48,7 @@ set(CMAKE_C_FLAGS "-Wall -Wextra -Wpedantic -Werror")
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 # Given that CMake has a tree structure, the libraries are added as follows
+# the add_subdirectory function __looks__ for a CMakeLists.txt file in the specified directory
 add_subdirectory(lib/libdyn)
 add_subdirectory(lib/libsta)
 
