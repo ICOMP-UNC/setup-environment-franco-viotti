@@ -1,0 +1,30 @@
+# Compiled object files
+*.o
+
+# Executables
+*.exe
+*.out
+
+# Compiled libraries
+*.a
+*.so
+
+# Build directory
+/build/
+
+# External directoy
+# Third party download libraries
+/external/
+
+# Dependency files
+*.d
+
+# Editor/IDE specific files
+.vscode/
+# Dont track sonnar files
+.scannerwork/
+
+# Utils
+qa_local.sh
+run-clang-tidy.py
+.pre-commit-config.yaml
